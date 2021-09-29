@@ -17,9 +17,23 @@
 	<h1>Aquí realizaremos un cuestionario sencillo sobre James Gosling</h1>
 	<form>
 		<p>Primero introduzca sus datos:</p>
-		<p><label>¿Cuál es tu nombre? <input></label></p>
- 		<p><label>¿Cuál es tu teléfono? <input type=tel></label></p>
- 		<p><label>¿Cuál es tu dirección de correo?<input type=email></label></p>
+		<p><label>¿Cuál es tu nombre? <input type="text"></label></p>
+ 		<p><label>¿Cuál es tu teléfono? <input type="tel"></label></p>
+ 		<p><label>¿Cuál es tu dirección de correo?<input type="email"></label></p>
+		 <fieldset>
+			  <legend> ¿En qué proyecto fue una pieza fundamental James? </legend>
+			  <p><label> <input type=radio name="proyecto"> JAVA </label></p>
+			  <p><label> <input type=radio name="proyecto"> C++ </label></p>
+			  <p><label> <input type=radio name="proyecto"> PYTHON </label></p>
+		 </fieldset>
+		 <fieldset>
+			  <legend> ¿Qué es verdad de James Gosling? </legend>
+			  <p><label> <input type=checkbox> Ha nacido en Canada </label></p>
+			  <p><label> <input type=checkbox> Es matemático </label></p>
+			  <p><label> <input type=checkbox> Ha recibido múltiples medallas </label></p>
+			  <p><label> <input type=checkbox> Tiene dos hijas </label></p>
+		 </fieldset>
+		 <p><label>¿Puedes describir un poco por qué James Bosling ha sido tan importante para JAVA?<textarea></textarea></label></p>
 		<p><button>Enviar cuestionario</button></p>
 	</form>
  
