@@ -25,25 +25,28 @@
 		</nav>
     <!-- Datos con el contenidos que aparece en el navegador -->
 	<h2>Aquí realizaremos un cuestionario sencillo sobre James Gosling</h2>
-	<form name="datos">
-<input type="number">Number<br>
-<input type="email" >E-mail<br>
-<input type="text" >Nombre<br>
-<input type="text" >Apellido<br>
-<input type="date">Fecha nacimiento<br>
-<input type="url">Página Web<br>
-<label>Que estándares 
-conoces?</label><br>
-<input type="checkbox" value="HTML5" 
-checked>HTML5<br>
-<input type="checkbox" 
-value="CSS3">CSS3<br>
-<input type="checkbox" 
-value="JavaScript">JavaScript<br>
-<textarea cols="15" rows="6" ></textarea>
-<input type="button" 
-value="Send the info!">
-</form>
+	<form>
+		Primero introduzca sus datos:<br>
+		<label>¿Cuál es tu nombre? <input type="text"></label><br>
+ 		<label>¿Cuál es tu teléfono? <input type="tel"></label><br>
+ 		<label>¿Cuál es tu dirección de correo? <input type="email"></label><br>
+		 <fieldset>
+			  <legend> ¿En qué proyecto fue una pieza fundamental James? </legend>
+			  <label> <input type=radio name="proyecto"> JAVA </label><br>
+			  <label> <input type=radio name="proyecto"> C++ </label><br>
+			  <label> <input type=radio name="proyecto"> PYTHON </label><br>
+		 </fieldset>
+		 <fieldset>
+			 <legend> ¿Qué es verdad de James Gosling? </legend>
+			 <label> <input type=checkbox> Ha nacido en Canada </label><br>
+			 <label> <input type=checkbox> Es matemático </label><br>
+			 <label> <input type=checkbox> Ha recibido múltiples medallas </label><br>
+			 <label> <input type=checkbox> Tiene dos hijas </label></br>
+		</fieldset>
+		<label>¿Puedes describir un poco por qué James Bosling ha sido tan importante para JAVA?</label><br>
+		<textarea></textarea><br>
+		<button>Enviar cuestionario</button><br>
+	</form>
  
 
 	<footer>
