@@ -1,1 +1,10 @@
 
+img {
+  width: 100%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+  height: auto;
+}
+
+video{
+  max-width: 100%;
+  height: auto;
+}
