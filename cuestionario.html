@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+	<head>
+		 <!-- Datos que describen el documento -->
+		 <meta charset="UTF-8" />
+		 <!-- Metadatos pedidos en el ejercicio 3 -->
+		 <meta name = "keywords" content="James, Gosling, Java">
+		 <meta name = "author" content="Xurde Mares Omar">
+		 <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+		 <title>
+			La vida de James Gosling - Cuestionario sobre James
+		 </title>
+		 <link rel="stylesheet" type="text/css" href="estilo.css" />
+	</head>
+<body>
+
+		<h1> Menú de navegación - James Gosling UO </h1>
+		
+		 <nav>
+			  <a title="Descubre más de la vida de James." href="/SEW_HTML">Biografía</a>
+			  <a title="Todas los libros de James." href="/SEW_HTML/publicaciones.html">Publicaciones</a>
+			  <a title="Todos los logros de James." href="/SEW_HTML/premios.html">Premios</a> 
+			  <a title="Fotos, videos y mucho más sobre James." href="/SEW_HTML/galeria.html">Galeria</a>
+			  <a title="¿Podrás responder correctamente?" href="/SEW_HTML/cuestionario.html">Cuestionario</a>
+		</nav>
+		
+    <!-- Datos con el contenidos que aparece en el navegador -->
+	<h2>Aquí realizaremos un cuestionario sencillo sobre James Gosling</h2>
+	<form>
+		Primero introduzca sus datos:<br>
+		<label for="name">¿Cuál es tu nombre? <input id="name" type="text"></label><br>
+ 		<label for="phone">¿Cuál es tu teléfono? <input id="phone" type="tel"></label><br>
+ 		<label for="mail">¿Cuál es tu dirección de correo? <input id="mail" type="email"></label><br>
+		 <fieldset>
+			  <legend> ¿En qué proyecto fue una pieza fundamental James? </legend>
+			  <label for="radio1"> <input id="radio1" type="radio" name="proyecto"> JAVA </label><br>
+			  <label for="radio2"> <input id="radio2" type="radio" name="proyecto"> C++ </label><br>
+			  <label for="radio3"> <input id="radio3" type="radio" name="proyecto"> PYTHON </label><br>
+		 </fieldset>
+		 <fieldset>
+			 <legend> ¿Qué es verdad de James Gosling? </legend>
+			 <label for="check1"> <input id="check1" type="checkbox"> Ha nacido en Canada </label><br>
+			 <label for="check2"> <input id="check2" type="checkbox"> Es matemático </label><br>
+			 <label for="check3"> <input id="check3" type="checkbox"> Ha recibido múltiples medallas </label><br>
+			 <label for="check4"> <input id="check4" type="checkbox"> Tiene dos hijas </label></br>
+		</fieldset>
+		<label for="texto">¿Puedes describir un poco por qué James Bosling ha sido tan importante para JAVA?</label><br>
+		<textarea id="texto"></textarea><br>
+		<label for="enviar">Enviar cuestionario<input id="enviar" type="submit" value="Enviar" ></label><br>
+		
+	</form>
+ 
+
+	<footer>
+			<img src= "multimedia/Escudo_UO.png" alt= "Logo de UniOvi" />
+			<img src= "multimedia/HTML5.png" alt= "HTML5 válido!" />
+			<img src= "multimedia/CSS3.png" alt= "CSS3 válido!" />
+	</footer>
+	
+</body>
+</html>
