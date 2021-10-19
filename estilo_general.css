@@ -4,10 +4,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1em;
+	background-size: 100%;
+    background-color:white;
+	color: black;
 }
 
 /* Esto lo pongo para que se vea un poco más bonito */
-header,footer,aside{
+header,footer,aside,section{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1em;
@@ -20,13 +23,15 @@ header,footer,aside{
 
 /* TODOS LOS SELECTORES TIENEN ESPECIFICIDAD 001 DE ESTA PARTE*/
 
-
 /* ESPECIFICIDAD 006*/
 h1,h2,h3,h4,h5,h6 { 
+	padding: 0.2em;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
+	background-color:  #9EE8DD;
     font-family: "Times New Roman", Times, serif;
     line-height: 1em;
+	text-transform: uppercase;
     color:black
 }
 
@@ -45,17 +50,6 @@ h2,h4,h6{
     font-style: italic;
 }
 
-
-/* ESPECIFICIDAD 001*/
-h1{
-    font-size: 1.6em;
-}
-
-/* ESPECIFICIDAD 001*/
-h2,h3,h4,h5,{
-    font-size: 1.1em;
-}
-
 /* 2 TAREA DE DEFINICIÓN BÁSICA DE TEXTO */
 
 /* ESPECIFICIDAD 006*/
@@ -68,29 +62,6 @@ p,li,ul,ol,td,th{
 /*ESPECIFICIDAD 011*/
 p::first-letter {
     font-size: 1.4em;
-}
-
-/* ESPECIFICIDAD 001*/
-body {
-    color: black;
-    background-color:  #9EE8DD;
-}
-
-/* ESPECIFICIDAD 001*/
-body {
-    background-size: 100%;
-    background-color:white;
-}
-
-/* 5 PROPIEDADES DE LOS ENCABEZADOS PERO DE SU CAJA */
-
-/* ESPECIFICIDAD 006*/
-h1,h2,h3,h4,h5,h6{
-    padding: 0.2em;
-	background-color:  #9EE8DD;
-    text-align: center;
-    text-justify: inter-word;
-    text-transform: uppercase;
 }
 
 /* 6 PROPIEDADES DE ENLACES */ 
@@ -125,14 +96,9 @@ table {
 	font-size: 1em
 }
 
-/* ESPECIFICIDAD 002*/
-th {
-    color: black;
-    font-size: 1.05em
-}
-
 /* ESPECIFICIDAD 011*/
 tr:hover {
+	color: black;
     background-color: #baffe1e7;
 }
 
