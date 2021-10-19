@@ -4,7 +4,7 @@ body {
 		  margin: 0.2em;
           display: grid;
           grid-gap: 0.5em;
-          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
           grid-template-areas:
           "header  header  header"
           "content content sidebar"
@@ -39,21 +39,4 @@ main, aside{
 	background-color: #9ee8dde1;
 	border-radius: 0.7em;
 	padding: 2em
-}
-
-  
-/* CAMBIOS DE LA HOJA DE ESTILOS */
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    line-height: 1em;
-}
-
-/* Esto lo pongo para que se vea un poco más bonito */
-header,footer,aside{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    line-height: 1em;
-    color:black;
 }

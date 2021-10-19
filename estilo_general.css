@@ -51,29 +51,8 @@ h1{
     font-size: 1.6em;
 }
 
-
 /* ESPECIFICIDAD 001*/
-h2{
-    font-size: 1em;
-}
-
-/* ESPECIFICIDAD 001*/
-h3{
-    font-size: 1.1em;
-}
-
-/* ESPECIFICIDAD 001*/
-h4{
-    font-size: 1.1em;
-}
-
-/* ESPECIFICIDAD 001*/
-h5{
-    font-size: 1.1em;
-}
-
-/* ESPECIFICIDAD 001*/
-h6{
+h2,h3,h4,h5,{
     font-size: 1.1em;
 }
 
@@ -91,36 +70,24 @@ p::first-letter {
     font-size: 1.4em;
 }
 
-
-/* 3 COLOR Y FONDO */
-/* ESPECIFICIDAD 001 */
-h1,h2,h3,h4,h5,h6{
-    background-color:  #9EE8DD;
-}
-
 /* ESPECIFICIDAD 001*/
 body {
     color: black;
     background-color:  #9EE8DD;
 }
 
-
-/* 4 IMAGEN DE FONDO */
-
 /* ESPECIFICIDAD 001*/
 body {
-    background-image: url("multimedia/Fondos.png");
-    background-repeat: repeat;
-    background-position: center;
-    background-attachment: scroll;
     background-size: 100%;
     background-color:white;
 }
 
 /* 5 PROPIEDADES DE LOS ENCABEZADOS PERO DE SU CAJA */
+
 /* ESPECIFICIDAD 006*/
 h1,h2,h3,h4,h5,h6{
-    padding: 6px;
+    padding: 0.2em;
+	background-color:  #9EE8DD;
     text-align: center;
     text-justify: inter-word;
     text-transform: uppercase;
