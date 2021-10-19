@@ -1,0 +1,35 @@
+/* ESTO ES EL LAYOUT */
+ 
+body {
+		  margin: 0.2em;
+          display: grid;
+          grid-gap: 0.5em;
+          grid-template-columns:minmax(0, 1fr);
+          grid-template-areas:
+          "header"
+          "content"
+          "footer";
+      }
+
+main {
+    grid-area: content;
+    position: relative;
+	background-color: #9ee8dde1;
+	border-radius: 0.7em;
+	padding: 2em
+  }
+  
+header {
+    grid-area: header
+  }
+  
+footer {
+    grid-area: footer;
+	text-align: center
+  }
+
+header, footer {
+    background-color: #baffe1e7;
+	border-radius: 0.7em;
+	padding: 2em
+  }
