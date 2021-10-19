@@ -1,11 +1,5 @@
 /* ESTO ES EL LAYOUT */
  
-.box {
-    background-color: #baffe1e7;
-    border-radius: 0.7em;
-    padding: 2em;
-  }
-  
 body {
 		  margin: 0.2em;
           display: grid;
@@ -22,12 +16,13 @@ main {
     position: relative
   }
   
-section {
+header {
     grid-area: header
   }
   
 footer {
-    grid-area: footer
+    grid-area: footer;
+	text-align: center
   }
   
 aside {
@@ -35,9 +30,16 @@ aside {
 }
   
 header, footer {
-    background-color: #9ee8dde1;
+    background-color: #baffe1e7;
+	border-radius: 0.7em;
+	padding: 2em
   }
 
+main, aside{
+	background-color: #9ee8dde1;
+	border-radius: 0.7em;
+	padding: 2em
+}
 
   
 /* CAMBIOS DE LA HOJA DE ESTILOS */
