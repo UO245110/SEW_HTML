@@ -23,6 +23,34 @@ nav{
 	color: #0000A3
 }
 
+/* Tabla */
+/* ESPECIFICIDAD 001*/
+table {
+    background-color: #9ee8dde1;
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-top: 5%;
+}
+/* ESPECIFICIDAD 001*/
+th {
+	font-weight:800
+}
+/* ESPECIFICIDAD 002*/
+th,td {
+    color: black;
+    font-size: 1.2em;
+}
+
+/* Enlaces */
+   /* ESPECIFICIDAD 011*/
+a:visited   {
+    color: black; 
+	font-weight: 400
+   }
+
+
+/* Multimedia */
 img {
   width: 100%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
   height: auto;
